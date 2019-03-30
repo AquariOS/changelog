@@ -1,0 +1,159 @@
+====================
+     03-29-2019    
+====================
+
+ * device/google/crosshatch
+67eea67  Dreamliner: Use custom SystemUIFactory  [Giuseppe Maggio]
+4c402f7  Dreamliner: Enable dreamliner service  [Alex]
+5097201  Dreamliner: Add config overlay for FeatureFactory  [Giuseppe Maggio]
+
+ * external/google
+35491d5  Dreamliner: Add SystemUIGoogleFactory  [Giuseppe Maggio]
+5790c75  Dreamliner: Start dreamliner service conditionally  [Alex]
+04a3b7b  Dreamliner: Clean up  [Alex]
+3c1ba6d  Dreamliner: Initial import for Settings [1/2]  [Giuseppe Maggio]
+2193792  Dreamliner: Reorganise the external repo [1/2]  [Giuseppe Maggio]
+7ac1c23  Dreamliner: Initial import for SystemUI  [Giuseppe Maggio]
+
+ * frameworks/base
+8e2a92d  Port: Wake on plug (1/2)  [Jon Evans]
+f6aceac  Dreamliner: Disable DockObserver conditionally  [Alex]
+68beb72  Dreamliner: Reorganise the external repo [2/2]  [Giuseppe Maggio]
+844b161  Add Google Sound Search tile  [ezio84]
+7650366  FontTile: Update vector to something sexy  [calebcabob]
+f7f35e1  Introduce FontTile  [bigrushdog]
+4e2a736  SystemUI: Update OnTheGo tile  [Ali B]
+e2a1205  OnTheGoTile: Fix active inactive states  [Pranav Vashi]
+e9221c9  QS: SystemUI: Add On-The-Go Tile  [mydongistiny]
+f23c578  On-The-Go Mode  [Alexander Martinz]
+
+ * packages/apps/CoralReef
+516c87a  Port: Wake on plug (1/2)  [Jon Evans]
+
+ * packages/apps/Settings
+e8f5968  Dreamliner: Initial import for Settings [2/2]  [Giuseppe Maggio]
+
+ * vendor/google
+82d93d0  Dreamliner: Add Pixel Stand application  [Giuseppe Maggio]
+
+====================
+     03-28-2019    
+====================
+
+====================
+     03-27-2019    
+====================
+
+ * frameworks/base
+7db43ee  NetworkTraffic: Allow user to choose positioning [1/2]  [calebcabob]
+
+ * packages/apps/CoralReef
+6d50525  Hide arrows in Network Traffic indicators [2/2]  [Nico60]
+1146bf8  NetworkTraffic: Allow user to choose positioning [2/2]  [calebcabob]
+
+ * packages/apps/Settings
+d8ad21d  Settings: Show me more than 4 freaking items in the menus!  [Dan Cartier]
+
+====================
+     03-26-2019    
+====================
+
+ * frameworks/base
+5a70194  Avoid casting network traffic to StatusBarIconView to prevent crash  [SpiritCroc]
+600f930  Add network traffic monitor properly to statusbar icons  [SpiritCroc]
+62e9387  SystemUI: Move network indicator to the right  [Michele Bono]
+d33554d  Hide arrows in Network Traffic indicators [1/2]  [Nico60]
+
+====================
+     03-25-2019    
+====================
+
+ * frameworks/base
+6951497  Bring back traffic indicator for all!  [Alex Cruz]
+9f20c86  Network traffic: fix indicator not hiding on lost connection  [SpiritCroc]
+
+====================
+     03-24-2019    
+====================
+
+ * frameworks/base
+6745378  Ambient music ticker: fix text scrolling glitches  [ezio84]
+b916f2f  Improve ambient play layout on keyguard  [Henrique Silva]
+7e5ad6f  Ambient: do not extend pulse notification when not needed  [Giuseppe Maggio]
+b6b8d91  Ambient Music: show on lockscreen only for Now Playing and cleanup code  [ezio84]
+7fff71b  Ambient music Now Playing: more improvements  [Ezio Lacandia Bijelkic]
+16875b0  Themes: Submit qstile and accent changes on offload thread  [bigrushdog]
+
+ * packages/apps/SmartNav
+f69566b  SmartNav: Reload icons from storage when boot completes  [bigrushdog]
+
+ * packages/apps/SmartNavSettings
+6804d91  Fling: Blacklist SmartBar editor SmartAction  [bigrushdog]
+
+====================
+     03-23-2019    
+====================
+
+ * vendor/google
+b53dadb  Dreamliner: add prebuilts  [Giuseppe Maggio]
+
+====================
+     03-22-2019    
+====================
+
+====================
+     03-21-2019    
+====================
+
+====================
+     03-20-2019    
+====================
+
+====================
+     03-19-2019    
+====================
+
+ * manifest
+e2ff32e  Merge branch 'android-9.0.0_r34' of https://android.googlesource.com/platform/manifest into HEAD  [calebcabob]
+
+====================
+     03-18-2019    
+====================
+
+====================
+     03-17-2019    
+====================
+
+ * external/google
+b0cbf6d  ActiveEdge: Use SmartPackageMonitor to clear out stale intent actions  [bigrushdog]
+670897e  Active Edge long squeeze support with SmartAction implementation [1/3]  [Giuseppe Maggio]
+
+ * frameworks/base
+e0a2c42  Fonts: Update keyguard when font changes  [bigrushdog]
+dcd3d57  Active Edge long squeeze support with SmartAction implementation [2/3]  [bigrushdog]
+bcfab5e  Move power menu methods to AquaUtils  [Alex]
+f32fd0e  Disallow certain power menu items while in lock task mode  [jhenrique09]
+eabc965  Fix airplane mode in new power menu  [camcory]
+2c4ff55  GlobalActions: Fix airplane mode switch for MSIM  [Roman Birg]
+0794292  SmartActions: Turn on Tri-state ringer toggle [1/2]  [bigrushdog]
+bc5f3ce  SmartActions: Add media controls to bindable actions [1/2]  [bigrushdog]
+95a03c6  AnalogClocks: Update tones to default analog clock  [calebcabob]
+49d8838  AnalogClocks: Properly update drawables on accent change  [bigrushdog]
+4349b8c  AnalogClocks: Remove all dark mode stuff*  [calebcabob]
+
+ * packages/apps/CoralReef
+8314774  Active Edge long squeeze support with SmartAction implementation [3/3]  [bigrushdog]
+fdac7d0  Powermenu: Set Advanced Reboot to enabled by default  [calebcabob]
+
+ * packages/apps/SmartNav
+32debc4  SmartActions: Make our Tri-state icon a bit cleaner & sexier  [calebcabob]
+739b541  SmartActions: Turn on Tri-state ringer toggle [2/2]  [bigrushdog]
+1bf6b81  SmartActions: Add Play/Pause media to bindable actions [2/2]  [bigrushdog]
+
+====================
+     03-16-2019    
+====================
+
+ * frameworks/base
+dc65801  Merge "Accents: Adjust Fruity Pebbles color layout and naming [1/2]" into a9  [D.J. Calphonic]
+
