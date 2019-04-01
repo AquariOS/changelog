@@ -1,0 +1,401 @@
+====================
+     03-31-2019    
+====================
+
+ * device/lge/g6-common
+536de13  Merge branch 'pie' of https://github.com/LG-G6-DEV/android_device_lge_g6-common into HEAD  [rc420head]
+
+ * device/lge/msm8996-common
+e30df74  Merge branch 'pie' of https://github.com/LG-G6-DEV/android_device_lge_msm8996-common into HEAD  [rc420head]
+
+ * device/oneplus/dumpling
+d271992  Update aquarios.dependencies  [Dennis S Lebhardt jr]
+
+ * device/oneplus/msm8998-common
+d4d3c15  Update aquarios.dependencies  [Dennis S Lebhardt jr]
+
+ * frameworks/base
+cae98a2  Port: Wake on plug (1/2)  [Jon Evans]
+681fb62  Add Google Sound Search tile  [ezio84]
+1e6e822  FontTile: Update vector to something sexy  [calebcabob]
+
+ * hardware/qcom/audio-caf/msm8996
+703ee3b  audio_extn: Fix unused parameter warning in utils.c  [codeworkx]
+
+ * packages/apps/CoralReef
+31c001a  Port: Wake on plug (1/2)  [Jon Evans]
+
+ * vendor/lge
+836cef1  Merge branch 'pie' of https://github.com/LG-G6-DEV/proprietary_vendor_lge into HEAD  [rc420head]
+
+ * vendor/oneplus
+bead647  Merge branch 'pie' of https://github.com/AOSiP-Devices/vendor_oneplus_oneplus3 into HEAD  [rc420head]
+
+====================
+     03-30-2019    
+====================
+
+ * frameworks/base
+b7922f0  Introduce FontTile  [bigrushdog]
+2bb6203  NetworkTraffic: Allow user to choose positioning [1/2]  [calebcabob]
+9a5bc20  Avoid casting network traffic to StatusBarIconView to prevent crash  [SpiritCroc]
+583c5b7  Add network traffic monitor properly to statusbar icons  [SpiritCroc]
+d1ac047  SystemUI: Move network indicator to the right  [Michele Bono]
+da03cc7  Hide arrows in Network Traffic indicators [1/2]  [Nico60]
+d5bed87  Bring back traffic indicator for all!  [Alex Cruz]
+a5b8b5f  Network traffic: fix indicator not hiding on lost connection  [SpiritCroc]
+a3169ce  Ambient music ticker: fix text scrolling glitches  [ezio84]
+96ce28b  Improve ambient play layout on keyguard  [Henrique Silva]
+4288da9  Ambient: do not extend pulse notification when not needed  [Giuseppe Maggio]
+cbcab69  Ambient Music: show on lockscreen only for Now Playing and cleanup code  [ezio84]
+cff7a72  Ambient music Now Playing: more improvements  [Ezio Lacandia Bijelkic]
+
+ * packages/apps/CoralReef
+cceb89e  Hide arrows in Network Traffic indicators [2/2]  [Nico60]
+ac82d94  NetworkTraffic: Allow user to choose positioning [2/2]  [calebcabob]
+
+ * packages/apps/Settings
+5390259  Settings: Show me more than 4 freaking items in the menus!  [Dan Cartier]
+
+ * vendor/assets
+e36fa76  New bootanimation handling  [gmillz]
+
+ * vendor/lge
+cb881a4  thermal: kang thermal engine with libs from marlin  [Michael]
+
+====================
+     03-29-2019    
+====================
+
+ * device/oneplus/sdm845-common
+5d46125  Merge branch 'pie' of https://github.com/AOSiP-Devices/device_oneplus_sdm845-common into HEAD  [rc420head]
+0d0aa36  sdm845-common: BoardConfig: Update kernel clang to 9.0.2  [anirudhgupta109]
+
+====================
+     03-28-2019    
+====================
+
+ * device/lge/msm8996-common
+db643da  PIN critical apps and system services that get swapped  [Alex]
+
+ * prebuilts/clang/host/linux-x86
+a7544b6  Update prebuilt Clang to r353983b.  [Yi Kong]
+
+ * vendor/aquarios
+6033191  Welcome bullhead to CAF  [calebcabob]
+
+====================
+     03-27-2019    
+====================
+
+ * frameworks/base
+88f1297  SystemUI: Update OnTheGo tile  [Ali B]
+3a48145  OnTheGoTile: Fix active inactive states  [Pranav Vashi]
+0334b72  QS: SystemUI: Add On-The-Go Tile  [mydongistiny]
+3ec3ca5  On-The-Go Mode  [Alexander Martinz]
+902ab9e  PowerManager: Add proximity check on wake  [Danesh M]
+
+ * kernel/oneplus/sdm845
+753324d  Merge android-linux-stable into IllusionKernel  [Anirudh Gupta]
+e8d7006  Merge 4.9.166 into oneplus/SDM845_P_9.0  [Nathan Chancellor]
+60771fc  Linux 4.9.166  [Greg Kroah-Hartman]
+8d78505  ath10k: avoid possible string overflow  [Arnd Bergmann]
+d746cb4  power: supply: charger-manager: Fix incorrect return value  [Baolin Wang]
+4061695  pwm-backlight: Enable/disable the PWM before/after LCD enable toggle.  [Enric Balletbo i Serra]
+018ea3f  rtc: Fix overflow when converting time64_t to rtc_time  [Baolin Wang]
+321c5ad  scsi: ufs: fix wrong command type of UTRD for UFSHCI v2.1  [kehuanlin]
+6969767  USB: core: only clean up what we allocated  [Andrey Konovalov]
+e6008a0  lib/int_sqrt: optimize small argument  [Peter Zijlstra]
+503b4ca  serial: sprd: clear timeout interrupt only rather than all interrupts  [Lanqing Liu]
+fc42149  arm64: traps: disable irq in die()  [Qiao Zhou]
+1987172  Hang/soft lockup in d_invalidate with simultaneous calls  [Al Viro]
+356b5e1  serial: sprd: adjust TIMEOUT to a big value  [Wei Qiao]
+dfe4f69  tcp/dccp: drop SYN packets if accept queue is full  [Eric Dumazet]
+9e9e3a4  ALSA: hda - Enforces runtime_resume after S3 and S4 for each codec  [Hui Wang]
+5ee8694  ALSA: hda - Record the current power state before suspend/resume calls  [Takashi Iwai]
+670d934  locking/lockdep: Add debug_locks check in __lock_downgrade()  [Waiman Long]
+bd140b0  Bluetooth: Fix decrementing reference count twice in releasing socket  [Myungho Jung]
+d54a396  media: v4l2-ctrls.c/uvc: zero v4l2_event  [Hans Verkuil]
+7002d0e  ext4: brelse all indirect buffer in ext4_ind_remove_space()  [zhangyi (F)]
+8651fa1e  ext4: fix data corruption caused by unaligned direct AIO  [Lukas Czerner]
+d9f0ce8  ext4: fix NULL pointer dereference while journal is aborted  [Jiufei Xue]
+c818b2f  objtool: Move objtool_file struct off the stack  [Josh Poimboeuf]
+726c28f  futex: Ensure that futex address is aligned in handle_futex_death()  [Chen Jie]
+b84089b  MIPS: Fix kernel crash for R6 in jump label branch function  [Archer Yan]
+c7ac334  MIPS: Ensure ELF appended dtb is relocated  [Yasha Cherikovsky]
+f6b55e7  mips: loongson64: lemote-2f: Add IRQF_NO_SUSPEND to "cascade" irqaction.  [Yifeng Li]
+9247706  udf: Fix crash on IO error during truncate  [Jan Kara]
+9c32ada  libceph: wait for latest osdmap in ceph_monc_blacklist_add()  [Ilya Dryomov]
+cfa2d25  iommu/amd: fix sg->dma_address for sg->offset bigger than PAGE_SIZE  [Stanislaw Gruszka]
+eea23ca  drm/vmwgfx: Don't double-free the mode stored in par->set_mode  [Thomas Zimmermann]
+c179e6d  mmc: pxamci: fix enum type confusion  [Arnd Bergmann]
+
+====================
+     03-26-2019    
+====================
+
+ * device/lge/bullhead
+5cd129a  AquariOS  [rc420head]
+
+ * vendor/lge
+78c1fc3  Merge branch 'pie' of https://github.com/AOSiP-Devices/vendor_lge into HEAD  [rc420head]
+
+====================
+     03-25-2019    
+====================
+
+====================
+     03-24-2019    
+====================
+
+ * frameworks/base
+e2d2987  Custom button light [1/2]  [maxwen]
+
+ * kernel/oneplus/sdm845
+5dd6275  Merge android-linux-stable into IllusionKernel  [Anirudh Gupta]
+c3b0440  Merge 4.9.165 into oneplus/SDM845_P_9.0  [Nathan Chancellor]
+
+ * packages/apps/CoralReef
+bf87aa5  Buttons: Button backlight support [2/2]  [Max Weninger]
+
+ * vendor/lge
+7c4a021  h872: update wifi drivers  [Michael]
+
+ * vendor/oneplus
+57f2f54  op3: Remove camera HAL hacks  [dianlujitao]
+
+====================
+     03-23-2019    
+====================
+
+ * device/lge/msm8996-common
+c4a8010  fix: pocket mode path  [Alex]
+
+ * device/oneplus/sdm845-common
+8619eab  Automatic translation import  [Akhil Narang]
+
+ * kernel/oneplus/sdm845
+1c453af  Linux 4.9.165  [Greg Kroah-Hartman]
+5e29da0  KVM: X86: Fix residual mmio emulation request to userspace  [Wanpeng Li]
+7b3c6c4  KVM: nVMX: Ignore limit checks on VMX instructions using flat segments  [Sean Christopherson]
+9748354  KVM: nVMX: Sign extend displacements of VMX instr's mem operands  [Sean Christopherson]
+45fe916  drm/radeon/evergreen_cs: fix missing break in switch statement  [Gustavo A. R. Silva]
+7e1b580  media: uvcvideo: Avoid NULL pointer dereference at the end of streaming  [Sakari Ailus]
+3b2bbd1  rcu: Do RCU GP kthread self-wakeup from softirq and interrupt  [Zhang, Jun]
+f61b68e  md: Fix failed allocation of md_register_thread  [Aditya Pakki]
+5ed7a8f  perf intel-pt: Fix divide by zero when TSC is not available  [Adrian Hunter]
+4f7c16b  perf intel-pt: Fix overlap calculation for padding  [Adrian Hunter]
+300ef83  perf auxtrace: Define auxtrace record alignment  [Adrian Hunter]
+d07d516  perf intel-pt: Fix CYC timestamp calculation after OVF  [Adrian Hunter]
+7fb9a25  bcache: never writeback a discard operation  [Daniel Axtens]
+6f76eec  PM / wakeup: Rework wakeup source timer cancellation  [Viresh Kumar]
+33c164d  nfsd: fix wrong check in write_v4_end_grace()  [Yihao Wu]
+e4ea22f  nfsd: fix memory corruption caused by readdir  [NeilBrown]
+7ed6082  NFS: Don't recoalesce on error in nfs_pageio_complete_mirror()  [Trond Myklebust]
+18ae814  NFS: Fix an I/O request leakage in nfs_do_recoalesce  [Trond Myklebust]
+0da4596  NFS: Fix I/O request leakages  [Trond Myklebust]
+e393365  dm: fix to_sector() for 32bit  [NeilBrown]
+a331023  ARM: s3c24xx: Fix boolean expressions in osiris_dvs_notify  [Gustavo A. R. Silva]
+380960e  powerpc/ptrace: Simplify vr_get/set() to avoid GCC warning  [Michael Ellerman]
+b8f072b  powerpc: Fix 32-bit KVM-PR lockup and host crash with MacOS guest  [Mark Cave-Ayland]
+5d8fff6  powerpc/83xx: Also save/restore SPRG4-7 during suspend  [Christophe Leroy]
+f3b4d46  powerpc/powernv: Make opal log only readable by root  [Jordan Niethe]
+abd8c86  powerpc/wii: properly disable use of BATs when requested.  [Christophe Leroy]
+9b53d04  powerpc/32: Clear on-stack exception marker upon exception return  [Christophe Leroy]
+241f3e3  jbd2: fix compile warning when using JBUFFER_TRACE  [zhangyi (F)]
+6713df7  jbd2: clear dirty flag when revoking a buffer from an older transaction  [zhangyi (F)]
+16afcc3  serial: 8250_pci: Have ACCES cards that use the four port Pericom PI7C9X7954 chip use the pci_pericom_setup()  [Jay Dolan]
+1c1919e  serial: 8250_pci: Fix number of ports for ACCES serial cards  [Jay Dolan]
+a3a6508  8250: FIX Fourth port offset of Pericom PI7C9X7954 boards  [Angelo Butti]
+0cfe116  serial: 8250_of: assume reg-shift of 2 for mrvl,mmp-uart  [Lubomir Rintel]
+03b0466  serial: uartps: Fix stuck ISR if RX disabled with non-empty FIFO  [Anssi Hannula]
+bf20b9d  drm/i915: Relax mmap VMA check  [Tvrtko Ursulin]
+5458907  i2c: tegra: fix maximum transfer size  [Sowjanya Komatineni]
+c281b04  parport_pc: fix find_superio io compare code, should use equal test.  [QiaoChong]
+6e7a860  intel_th: Don't reference unassigned outputs  [Alexander Shishkin]
+4b0a5e8  device property: Fix the length used in PROPERTY_ENTRY_STRING()  [Heikki Krogerus]
+45a67f1  kernel/sysctl.c: add missing range check in do_proc_dointvec_minmax_conv  [Zev Weiss]
+5b4e779  mm/vmalloc: fix size check for remap_vmalloc_range_partial()  [Roman Penyaev]
+78f42f1  mm: hwpoison: fix thp split handing in soft_offline_in_use_page()  [zhongjiang]
+55bfb2a  nfit: acpi_nfit_ctl(): Check out_obj->type in the right place  [Dexuan Cui]
+b1fc27d  clk: ingenic: Fix doc of ingenic_cgu_div_info  [Paul Cercueil]
+febc1a3  clk: ingenic: Fix round_rate misbehaving with non-integer dividers  [Paul Cercueil]
+51e197b  clk: clk-twl6040: Fix imprecise external abort for pdmclk  [Tony Lindgren]
+4b5f060b  ext2: Fix underflow in ext2_max_size()  [Jan Kara]
+14a0bfd  ext4: fix crash during online resizing  [Jan Kara]
+05b6516  cpufreq: pxa2xx: remove incorrect __init annotation  [Arnd Bergmann]
+4ddd617  cpufreq: tegra124: add missing of_node_put()  [Yangtao Li]
+b9ad2da  libertas_tf: don't set URB_ZERO_PACKET on IN USB transfer  [Lubomir Rintel]
+a329c15  crypto: pcbc - remove bogus memcpy()s with src == dest  [Eric Biggers]
+fc3a73f  Btrfs: fix corruption reading shared and compressed extents after hole punching  [Filipe Manana]
+0284f46  btrfs: ensure that a DUP or RAID1 block group has exactly two stripes  [Johannes Thumshirn]
+9cfc01b  m68k: Add -ffreestanding to CFLAGS  [Finn Thain]
+943ebf4  splice: don't merge into linked buffers  [Jann Horn]
+8c93709  fs/devpts: always delete dcache dentry-s in dput()  [Varad Gautam]
+1ef34b9  scsi: target/iscsi: Avoid iscsit_release_commands_from_conn() deadlock  [Bart Van Assche]
+98a5238  scsi: sd: Optimal I/O size should be a multiple of physical block size  [Martin K. Petersen]
+85af500  scsi: virtio_scsi: don't send sc payload with tmfs  [Felipe Franciosi]
+ffcad0a  s390/virtio: handle find on invalid queue gracefully  [Halil Pasic]
+c7a897a  clocksource/drivers/exynos_mct: Clear timer interrupt when shutdown  [Stuart Menefy]
+c83aa58  clocksource/drivers/exynos_mct: Move one-shot check from tick clear to ISR  [Stuart Menefy]
+e24432b  regulator: s2mpa01: Fix step values for some LDOs  [Stuart Menefy]
+686ca7f  regulator: s2mps11: Fix steps for buck7, buck8 and LDO35  [Krzysztof Kozlowski]
+b8a8115  spi: pxa2xx: Setup maximum supported DMA transfer length  [Andy Shevchenko]
+1a3f244  spi: ti-qspi: Fix mmap read when more than one CS in use  [Vignesh R]
+d74bc74  ACPI / device_sysfs: Avoid OF modalias creation for removed device  [Andy Shevchenko]
+037a6cf  tracing: Do not free iter->trace in fail path of tracing_open_pipe()  [zhangyi (F)]
+286ffaa  tracing: Use strncpy instead of memcpy for string keys in hist triggers  [Tom Zanussi]
+776f01e  CIFS: Fix read after write for files with read caching  [Pavel Shilovsky]
+f8a0d9cc  CIFS: Do not reset lease state to NONE on lease break  [Pavel Shilovsky]
+9a0eec8  crypto: arm64/aes-ccm - fix logical bug in AAD MAC handling  [Ard Biesheuvel]
+dd39aff  crypto: hash - set CRYPTO_TFM_NEED_KEY if ->setkey() fails  [Eric Biggers]
+f45c6c3  libnvdimm: Fix altmap reservation size calculation  [Oliver O'Halloran]
+9f98f27  libnvdimm/pmem: Honor force_raw for legacy pmem regions  [Dan Williams]
+4465532  libnvdimm/label: Clear 'updating' flag after label-set update  [Dan Williams]
+a9624ba  stm class: Prevent division by zero  [Alexander Shishkin]
+2484aab  tmpfs: fix uninitialized return value in shmem_link  [Darrick J. Wong]
+10a81a1  net: set static variable an initial value in atl2_probe()  [Mao Wenan]
+b2743d8  nfp: bpf: fix ALU32 high bits clearance bug  [Jiong Wang]
+cb986f5  nfp: bpf: fix code-gen bug on BPF_ALU | BPF_XOR | BPF_K  [Jiong Wang]
+cdccf12  net: thunderx: make CFG_DONE message to run through generic send-ack sequence  [Vadim Lomovtsev]
+703473b  mac80211_hwsim: propagate genlmsg_reply return code  [Li RongQing]
+3dc60d4  phonet: fix building with clang  [Arnd Bergmann]
+f8a845c  ARC: uacces: remove lp_start, lp_end from clobber list  [Vineet Gupta]
+c29505f  ARCv2: lib: memcpy: fix doing prefetchw outside of buffer  [Eugeniy Paltsev]
+eb85c84  tmpfs: fix link accounting when a tmpfile is linked in  [Darrick J. Wong]
+eda2912  net: marvell: mvneta: fix DMA debug warning  [Russell King]
+46043c1  arm64: Relax GIC version check during early boot  [Vladimir Murzin]
+5772f03  ASoC: topology: free created components in tplg load error  [Bard liao]
+449bb94  net: mv643xx_eth: disable clk on error path in mv643xx_eth_shared_probe()  [Alexey Khoroshilov]
+d299d2c  qmi_wwan: apply SET_DTR quirk to Sierra WP7607  [Beniamino Galvani]
+6faf692  pinctrl: meson: meson8b: fix the sdxc_a data 1..3 pins  [Martin Blumenstingl]
+72c50b0  net: systemport: Fix reception of BPDUs  [Florian Fainelli]
+8d7045a  scsi: libiscsi: Fix race between iscsi_xmit_task and iscsi_complete_task  [Anoob Soman]
+740f4ae  assoc_array: Fix shortcut creation  [David Howells]
+6256557  ARM: 8824/1: fix a migrating irq bug when hotplug cpu  [Dietmar Eggemann]
+2c304e4  clk: sunxi: A31: Fix wrong AHB gate number  [Andre Przywara]
+2e0e73d  Input: st-keyscan - fix potential zalloc NULL dereference  [Gabriel Fernandez]
+9f7ae2d  i2c: cadence: Fix the hold bit setting  [Shubhrajyoti Datta]
+4d8854a  net: hns: Fix object reference leaks in hns_dsaf_roce_reset()  [Huang Zijiang]
+484e89a  mm: page_alloc: fix ref bias in page_frag_alloc() for 1-byte allocs  [Jann Horn]
+c133d8e  mm/gup: fix gup_pmd_range() for dax  [Yu Zhao]
+489a9ab  floppy: check_events callback should not return a negative number  [Yufen Yu]
+8faa6f2  Input: matrix_keypad - use flush_delayed_work()  [Dmitry Torokhov]
+3c8b39a  Input: cap11xx - switch to using set_brightness_blocking()  [Dmitry Torokhov]
+e9ecab0  ARM: OMAP2+: Variable "reg" in function omap4_dsi_mux_pads() could be uninitialized  [Yizhuo]
+6a5cda4  s390/dasd: fix using offset into zero size array error  [Stefan Haberland]
+06d73d1  gpu: ipu-v3: Fix CSI offsets for imx53  [Steve Longerbeam]
+7052282  gpu: ipu-v3: Fix i.MX51 CSI control registers offset  [Alexander Shiyan]
+38605cc  crypto: ahash - fix another early termination in hash walk  [Eric Biggers]
+a475fe3  crypto: caam - fixed handling of sg list  [Pankaj Gupta]
+03750aa  stm class: Fix an endless loop in channel allocation  [Zhi Jin]
+ffe5a99  iio: adc: exynos-adc: Fix NULL pointer exception on unbind  [Krzysztof Kozlowski]
+3492ee4  ASoC: fsl_esai: fix register setting issue in RIGHT_J mode  [S.j. Wang]
+b5d6f47  9p/net: fix memory leak in p9_client_create  [zhengbin]
+0a97dbd  9p: use inode->i_lock to protect i_size_write() under 32-bit  [Hou Tao]
+7f422aa6  media: videobuf2-v4l2: drop WARN_ON in vb2_warn_zero_bytesused()  [Hans Verkuil]
+
+ * packages/apps/SmartNav
+1d7749b  SmartNav: Reload icons from storage when boot completes  [bigrushdog]
+
+====================
+     03-22-2019    
+====================
+
+ * device/lge/msm8996-common
+16e9bb6  Merge pull request #7 from LG-G6-DEV/caf  [Alex]
+08fa6b0  Add LGE settings  [Alex]
+
+ * frameworks/base
+39fe094  Themes: Submit qstile and accent changes on offload thread  [bigrushdog]
+
+====================
+     03-21-2019    
+====================
+
+ * vendor/lge
+a17e1e6  us997: update wifi driver  [Michael]
+
+====================
+     03-20-2019    
+====================
+
+ * device/lge/msm8996-common
+fad52fe  Use thermal-engine from stock  [Alex]
+
+ * kernel/oneplus/sdm845
+66951b1  Merge 4.9.164 into oneplus/SDM845_P_9.0  [Nathan Chancellor]
+
+ * vendor/lge
+4ebbfbd  Use thermal bin/libs from stock  [Alex]
+
+====================
+     03-19-2019    
+====================
+
+ * kernel/oneplus/sdm845
+7aecbb9  Merge tag 'v4.9.164' into IllusionKernel  [Anirudh Gupta]
+f5fd34f  Linux 4.9.164  [Greg Kroah-Hartman]
+5ebcee9  vhost/vsock: fix vhost vsock cid hashing inconsistent  [Zha Bin]
+0da773c5  of: Support const and non-const use for to_of_node()  [Sakari Ailus]
+883f7c3  mmc: tmio_mmc_core: don't claim spurious interrupts  [Sergei Shtylyov]
+3decc9d  It's wrong to add len to sector_nr in raid10 reshape twice  [Xiao Ni]
+a3a870c  ALSA: bebob: use more identical mod_alias for Saffire Pro 10 I/O against Liquid Saffire 56  [Takashi Sakamoto]
+4f964aa  perf/x86: Fixup typo in stub functions  [Peter Zijlstra]
+83fe873  tcp/dccp: remove reqsk_put() from inet_child_forget()  [Eric Dumazet]
+7cbb0ab  gro_cells: make sure device is up in gro_cells_receive()  [Eric Dumazet]
+0bea382  rxrpc: Fix client call queueing, waiting for channel  [David Howells]
+8fa3e87  vxlan: Fix GRO cells race condition between receive and link delete  [Stefano Brivio]
+510c625  ipvlan: disallow userns cap_net_admin to change global mode/flags  [Daniel Borkmann]
+713b91c  missing barriers in some of unix_sock ->addr and ->path accesses  [Al Viro]
+2f3d0e9  net: Set rtm_table to RT_TABLE_COMPAT for ipv6 for tables > 255  [Kalash Nainwal]
+c4bec92  mdio_bus: Fix use-after-free on device_register fails  [YueHaibing]
+92382cd  net/x25: fix a race in x25_bind()  [Eric Dumazet]
+f46dc15  net/mlx4_core: Fix qp mtt size calculation  [Jack Morgenstein]
+038a48c  net/mlx4_core: Fix locking in SRIOV mode when switching between events and polling  [Jack Morgenstein]
+de42e2e  net/mlx4_core: Fix reset flow when in command polling mode  [Jack Morgenstein]
+9b0e9c2  vxlan: test dev->flags & IFF_UP before calling gro_cells_receive()  [Eric Dumazet]
+40852d5  tcp: handle inet_csk_reqsk_queue_add() failures  [Guillaume Nault]
+e8273ce  route: set the deleted fnhe fnhe_daddr to 0 in ip_del_fnhe to fix a race  [Xin Long]
+a0f1f55  ravb: Decrease TxFIFO depth of Q3 and Q2 to one  [Masaru Nagai]
+3b3ce4c  pptp: dst_release sk_dst_cache in pptp_sock_destruct  [Xin Long]
+0651889  net/x25: reset state in x25_connect()  [Eric Dumazet]
+3123545  net/x25: fix use-after-free in x25_device_event()  [Eric Dumazet]
+b89d3ce  net: sit: fix UBSAN Undefined behaviour in check_6rd  [Miaohe Lin]
+8aad233  net/hsr: fix possible crash in add_timer()  [Eric Dumazet]
+a582b20  net: hsr: fix memory leak in hsr_dev_finalize()  [Mao Wenan]
+e0c435a  l2tp: fix infoleak in l2tp_ip6_recvmsg()  [Eric Dumazet]
+ccc2aae  KEYS: restrict /proc/keys by credentials at open time  [Eric Biggers]
+45eaae2  ACPICA: Reference Counts: increase max to 0x4000 for large servers  [Erik Schmauss]
+
+====================
+     03-18-2019    
+====================
+
+ * device/lge/msm8996-common
+456e629  refactor: lower config_screenBrightnessDoze  [Alex]
+15e3b44  Drop custom display flags  [Alex]
+
+ * device/oneplus/sdm845-common
+e80c0c9  Update OnePlus Camera and Gallery  [rc420head]
+
+ * frameworks/base
+e5ff045  Fonts: Update keyguard when font changes  [bigrushdog]
+fc48dc1  Move power menu methods to AquaUtils  [Alex]
+0b2df4e  Disallow certain power menu items while in lock task mode  [jhenrique09]
+a7b6d73  Fix airplane mode in new power menu  [camcory]
+3660316  GlobalActions: Fix airplane mode switch for MSIM  [Roman Birg]
+8060920  AnalogClocks: Update tones to default analog clock  [calebcabob]
+29afc1b  AnalogClocks: Properly update drawables on accent change  [bigrushdog]
+005863c  AnalogClocks: Remove all dark mode stuff*  [calebcabob]
+1249849  Accents: Adjust Fruity Pebbles color layout and naming [1/2]  [calebcabob]
+
+ * packages/apps/CoralReef
+8cf5c13  Buttons: Blacklist SmartBar editor SmartAction  [bigrushdog]
+f0a8c4f  Disable "Always show enter key" by default  [calebcabob]
+db1467e  Powermenu: Set Advanced Reboot to enabled by default  [calebcabob]
+f344341  Accents: Adjust Fruity Pebbles color layout and naming [2/2]  [calebcabob]
+
+ * packages/apps/SmartNavSettings
+1d1a881  Fling: Blacklist SmartBar editor SmartAction  [bigrushdog]
+
