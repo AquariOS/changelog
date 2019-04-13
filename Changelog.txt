@@ -1,11 +1,166 @@
 ====================
-     03-29-2019    
+     04-12-2019    
+====================
+
+ * packages/apps/OmniStyle
+2561e66  OmniStyle: Add some new wallpapers :)  [calebcabob]
+
+====================
+     04-11-2019    
 ====================
 
  * device/google/crosshatch
-67eea67  Dreamliner: Use custom SystemUIFactory  [Giuseppe Maggio]
-4c402f7  Dreamliner: Enable dreamliner service  [Alex]
-5097201  Dreamliner: Add config overlay for FeatureFactory  [Giuseppe Maggio]
+55da3a8  Crosshatch: Unbreak WiFi Calling for almost everyone again :P  [calebcabob]
+
+ * frameworks/base
+63c785a  FontTile: Update vector to look a little nicer  [calebcabob]
+abeb49a  Ambient music ticker: fix text scrolling on AoD  [ezio84]
+
+ * vendor/aquarios
+cce7ec3  Upbreak the shit out of WFC  [calebcabob]
+
+====================
+     04-10-2019    
+====================
+
+ * packages/apps/Settings
+ca9f300  fuelguage: Add battery level animation  [Chris]
+
+ * vendor/assets
+231ba9e  themes: Update system overlays from fwb  [jhenrique09]
+
+====================
+     04-08-2019    
+====================
+
+ * frameworks/base
+205836d  AnalogClocks: Create light versions  [calebcabob]
+529715f  Utils: Add method to determine battery temp  [Alex Cruz]
+2981c08  Utils: Introduce method to determine countries that use Fahrenheit  [Alex]
+2a27728  Weather MCC code cleanup  [Ezio Lacandia Bijelkic]
+74e1b5f  Weather: Determine weather scale based on MCC [1/2]  [Alex]
+0425141  Weather client: switch to vector drawables  [allstargaurav]
+6f3e83c  fwb: Allow users to switch between Pie/Oreo recents [1/3]  [bigrushdog]
+7cbc5f4  Themes: Prevent user from setting accent & background the same colors  [Alex]
+
+ * vendor/aquarios
+0151242  Move to Google's method of defining system default props  [Rashed Abdel-Tawab]
+bcd621e  Define Google Assistant as default  [Henrique Silva]
+ab553fa  Allow Google Dialer and Messages to be set as defaults  [beanstown106]
+
+ * vendor/pixelgapps
+3c85fb6  Update gapps to April 2019 - Pixel 3 XL (crosshatch)  [Josh Chasky]
+
+====================
+     04-07-2019    
+====================
+
+ * frameworks/base
+adc27cc  Fix action bar font family on material themes  [Henrique Silva]
+a982cef  UiModeManagerService: Store messaging night state on Settings class  [Henrique Silva]
+
+ * kernel/google/bluecross
+fcb3590  Merge branch 'p9x' of https://github.com/DirtyUnicorns/android_kernel_google_bluecross into a9  [Mike Redd]
+f5549c2  Merge tag 'v4.9.168' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into p9x  [Josh Chasky]
+
+ * packages/apps/CoralReef
+8da2db1  Recents: Disable clear-all options when user is using pie style recents  [calebcabob]
+47579ad  CoralReef: Allow users to switch between Pie/Oreo recents [2/3]  [Shubham Singh]
+
+ * system/sepolicy
+992fab3  Allow webview_zygote to read /dev/ion  [Vladimir Oltean]
+
+====================
+     04-06-2019    
+====================
+
+ * device/google/wahoo
+48a860f  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/device/google/wahoo into HEAD  [calebcabob]
+
+ * kernel/google/wahoo
+d17e6ef  Merge branch 'android-msm-wahoo-4.4' of https://github.com/android-linux-stable/wahoo into a9  [calebcabob]
+
+ * manifest
+a91557b  Track packages/apps/EmergencyInfo  [calebcabob]
+eef04a9  Update to android 9.0.0_r35  [calebcabob]
+08c132f  Let's sort things even more  [calebcabob]
+
+ * packages/apps/EmergencyInfo
+3568fa7  Fix theming  [jhenrique09]
+
+ * vendor/aquarios
+6e1ca28  Crosshatch: We do this in aquarios.mk in crosshatch tree already  [calebcabob]
+7ecc04f  Fingerprints: Update crosshatch, blueline, taimen, and walleye to April 2019  [calebcabob]
+
+====================
+     04-05-2019    
+====================
+
+ * build/make
+b4b0fd1  Merge tag 'android-9.0.0_r35' into Aquarios/build_make - a9  [calebcabob]
+
+ * frameworks/base
+57dfb3b  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/platform//frameworks/base into HEAD  [calebcabob]
+
+ * packages/apps/Bluetooth
+739ecba  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD  [calebcabob]
+
+
+====================
+     04-02-2019    
+====================
+
+ * vendor/assets
+d76f529  SystemUi Dark: Let's dark theme match Dialer and Messaging app  [jhenrique09]
+4cc47ac  Use dark theme on global actions/volume panel  [jhenrique09]
+b3497d4  Thematize QS and notifications like Android Q  [jhenrique09]
+ffeeae8  Fix keyboard shortcut item color  [jhenrique09]
+80fa82d  Update toast bg color  [jhenrique09]
+2a661cf  Let's dark theme match Dialer and Messaging app  [jhenrique09]
+cf96978  Fix system dialog theme  [jhenrique09]
+
+ * vendor/google
+83d512e  Bluecross: Update blobs to Android 9.0.0 (PQ2A.190405.003)  [Josh Chasky]
+
+====================
+     04-01-2019    
+====================
+
+ * packages/apps/Settings
+026f867  Battery temp: Use MCC to determine the scale type  [Alex]
+0749f43  Battery temp: Ensure preference is updated  [Alex]
+cd0ec7d  Battery stats: Display battery temperature  [Alex Cruz]
+
+====================
+     03-31-2019    
+====================
+
+ * manifest
+aba55c1  AquariOS caught a blueline!  [calebcabob]
+
+ * packages/apps/WeatherClient
+7b8b208  Force stop application if running for more than 60 seconds  [jhenrique09]
+32fcddc  WeatherClient: Update google play services libs  [Sirhc95]
+1d2ef87  Fix conditions  [jhenrique09]
+cf04adf  WeatherChannelApi: Fix allocation abuse  [Harsh Shandilya]
+99f5816  Weather client: fix refresh at boot and improve/cleanup code [2/2]  [ezio84]
+b069672  Add gzip support  [jhenrique09]
+
+ * vendor/aquarios
+6d62fab  AquariOS caught a blueline!  [calebcabob]
+
+====================
+     03-30-2019    
+====================
+
+ * packages/apps/Settings
+d9d052e  Don't break stock Quickstep, keep current custom impl  [George G]
+1ad23e1  Settings: Allow users to switch between Pie/Oreo recents [3/3]  [Shubham Singh]
+d93be0a  Only show gesture navigation if device has a software nav bar  [Rashed Abdel-Tawab]
+
+====================
+     03-29-2019    
+====================
 
  * external/google
 35491d5  Dreamliner: Add SystemUIGoogleFactory  [Giuseppe Maggio]
@@ -35,10 +190,6 @@ e8f5968  Dreamliner: Initial import for Settings [2/2]  [Giuseppe Maggio]
 
  * vendor/google
 82d93d0  Dreamliner: Add Pixel Stand application  [Giuseppe Maggio]
-
-====================
-     03-28-2019    
-====================
 
 ====================
      03-27-2019    
@@ -98,27 +249,11 @@ f69566b  SmartNav: Reload icons from storage when boot completes  [bigrushdog]
 b53dadb  Dreamliner: add prebuilts  [Giuseppe Maggio]
 
 ====================
-     03-22-2019    
-====================
-
-====================
-     03-21-2019    
-====================
-
-====================
-     03-20-2019    
-====================
-
-====================
      03-19-2019    
 ====================
 
  * manifest
 e2ff32e  Merge branch 'android-9.0.0_r34' of https://android.googlesource.com/platform/manifest into HEAD  [calebcabob]
-
-====================
-     03-18-2019    
-====================
 
 ====================
      03-17-2019    
