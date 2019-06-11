@@ -1,447 +1,120 @@
-====================
-     05-12-2019    
-====================
+AquariOS changelog - June 10, 2019
 
- * build/kati
-a5afa67  Do not limit threads upon calling legacy GNU make  [Park Ju Hyung]
+====================
+     06-09-2019    
+====================
 
  * frameworks/base
-664bb4b  SmartActions: TEMP disable camera action  [bigrushdog]
-287040f  Add in camera action to bindable actions (1/2)  [pimpmaneaton]
-9434cd3  SmartNav: Eliminate needless BroadcastReceiver in BaseNavigationBar [1/2]  [bigrushdog]
-8847d46  CarrierConfigManager: Enable enhanced call blocking function  [mydongistiny]
-a8c0314  core: Implement Aggressive Battery [1/2]  [Joe Maples]
-370ee61  RecentsIconPack: Fallback to default icons on icon pack removal  [Giuseppe Maggio]
-661f781  IconsHandler: Really update the icon packs available  [Giuseppe Maggio]
-d2040c8  Support per-app icon and label customization [2/2]  [Anas Karbila]
-97b9c5d  Custom Icons handler: add launcher icon cache support  [ezio84]
-1ca9077  Stock Recents/Overview icon pack support [2/3]  [ezio84]
-5e574e8  VolumeDialog: avoid multiple animations on touch spam  [Giuseppe Maggio]
-3298a57  Add notification slider if ring & notification is unlinked  [rajadeja]
-a74bd4b  Volume Panel: Make panel side user selectable [1/2]  [bigrushdog]
-5238a76  Volume panel: fixed incorrect positioning of the expandable_indicator and ringer  [a.derendyaev]
-497e908  Code improvements for expandable volume panel  [Giuseppe Maggio]
-b8bc5f7  Redo expanded volume panel for 9.x  [HrX03]
-eacbb56  Volume panel: Fix animation  [xyyx]
-ed71b9c  Volume panel: load the bool once  [ezio84]
-c1bf53b  Volume panel: Do the same with less  [Alex Cruz]
-831f428  Allow devices override audio panel location  [a.derendyaev]
-8f9536f  Remove previous customizations to volume panel [1/3]  [calebcabob]
-cff637e  Merge "Revert "Theming defaults: Set the UI dark by default."" into a9  [D.J. Calphonic]
-
- * manifest
-f694ca4  Track custom clang repo  [calebcabob]
-
- * packages/apps/Settings
-bf7abc6  Uptime: Move from AboutPhone to Battery stats  [calebcabob]
-85dd324  Settings: Add deep sleep info to uptime  [Stefan Berger]
-ed9894c  Settings: Bring back Uptime  [Stefan Berger]
+60da07e  FOD: dont show FP icons if FOD is in use  [Marko Man]
+923f828  fod: prevent reapplying modes if theres no changes  [Marko Man]
+8618773  Pulse: Backend redesign [2/2]  [bigrushdog]
+7e5e606  base: SystemUI: add VPN to the icon blacklist in tuner  [maxwen]
+54ce8a7  SystemUI: StatusBar icons: tighten things and conserve space  [calebcabob]
+cc42679  Fix Volte icon padding when WiFi group is showing  [bigrushdog]
+6a547a9  Show 4G instead of LTE switch [1/2]  [Alex Cruz]
+49da656  Ability to toggle VoLTE icon in statusbar [1/2]  [Pranav Vashi]
+a5007c1  SystemUI: Q style QS Panel  [paphonb]
+f6a3d84  base: Persistent settings icon on qs panel for 9.x  [HrX03]
+64885f8  Q Clock: Re-inherit keyguard slice - add rule to show clock above it  [Dil3mm4]
+b3aba8d  Q Clock: KeyguardSliceView: Align as per the Clock Style  [Shreyansh Lodha]
+84e0fb9  Q Clock: Add ColorText util to automagically set topText color from wallpaper  [Dil3mm4]
+a46213b  Q Clock: Add many translations as well as a Language Guard util  [Dil3mm4]
+e13deb0  Q Clock: Improve string management to allow for translations  [Dil3mm4]
+3be8833  Q Clock: Squash of initial implementation  [Ovenoboyo]
 
  * packages/apps/SmartNav
-bcaf86b  Add in camera action to bindable actions (2/2)  [pimpmaneaton]
-38de002  SmartNav: Eliminate needless BroadcastReceiver in BaseNavigationBar [2/2]  [bigrushdog]
-
-====================
-     05-11-2019    
-====================
-
- * build/soong
-e4c4212  Prebuilts shouldn't inherit linker interface  [Yi Kong]
-
-====================
-     05-10-2019    
-====================
-
-====================
-     05-09-2019    
-====================
-
- * frameworks/base
-7b4782d  Merge branch 'a9' of https://github.com/AquariOS/frameworks_base into a9  [calebcabob]
-
- * packages/apps/Settings
-01c7f55  Implement Aggressive Battery [2/2]  [Joe Maples]
-658a232  Remove previous customizations to volume panel [3/3]  [calebcabob]
-
- * vendor/aquarios
-5daf39c  Fingerprints: Update Pixel devices to May 2019  [calebcabob]
-
-====================
-     05-08-2019    
-====================
-
- * bootable/recovery
-ec8350b  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/bootable/recovery into a9  [calebcabob]
-
- * build/make
-2a5bc50  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/build into a9  [calebcabob]
-
- * frameworks/av
-809defb  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into a9  [calebcabob]
-
- * frameworks/base
-ef78bf6  Camera: allow camera to use power key as shutter  [Danesh M]
-8500a53  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/base into HEAD  [rc420head]
-
- * frameworks/native
-083c209  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/frameworks/native into a9  [calebcabob]
-
- * packages/apps/Bluetooth
-5d8efa3  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Bluetooth into a9  [calebcabob]
-
- * packages/apps/DocumentsUI
-74a6f53  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/DocumentsUI into a9  [calebcabob]
-
- * packages/apps/Settings
-a4166f8  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into a9  [calebcabob]
-
- * packages/services/Telecomm
-bcb4bb2  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/packages/services/Telecomm into a9  [calebcabob]
-
- * system/core
-8506c44  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/core into a9  [calebcabob]
-
- * system/sepolicy
-9f03e6f  Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform/system/sepolicy into a9  [calebcabob]
-
-====================
-     05-07-2019    
-====================
-
- * vendor/support
-f4c62f6  Recents Icon Pack: Address issue with improperly aligned preference  [calebcabob]
-
-====================
-     05-06-2019    
-====================
-
- * frameworks/base
-a12081a  Revert "Theming defaults: Set the UI dark by default."  [calebcabob]
-25be2fe  Merge "Recents: Fix fab theming when user is using white accent" into a9  [D.J. Calphonic]
+9b1f9bb Pulse: Backend redesign [1/2]  [bigrushdog]
 
  * packages/apps/CoralReef
-56906b9  Recents icon pack: Align layout with Settings  [Alex Cruz]
-3e14476  RecentsIconPack: Extend and use IconPackPreference  [Giuseppe Maggio]
-e964347  Stock Recents/Overview icon pack support [3/3]  [ezio84]
+b95fee2  Status bar icons: Move VoLTE & 4G/LTE switches to CoralReef  [calebcabob]
+
+ * packages/apps/Settings
+9b56631  Settings: Move Notch settings to display  [Shahan-mik3]
+
+====================
+     06-08-2019    
+====================
+
+ * manifest
+c3737a7  Update to June-2019 [r41]  [calebcabob]
+
+====================
+     06-06-2019    
+====================
 
  * packages/apps/Launcher3
-16319b3  Revert "Change swipe up gesture settings config [3/4]"  [calebcabob]
-7ab152f  Refactor for use with AquariOS  [calebcabob]
-
- * packages/apps/Settings
-63fed68  Merge "Expose FP gestures as external activity" into a9  [D.J. Calphonic]
-
- * vendor/support
-d364fd1  CustomSeekBar: allow longpress on left value to set it manually  [ezio84]
-773e98d  support: Adapt IconPackPreference class from Launcher3  [Giuseppe Maggio]
-
-====================
-     05-04-2019    
-====================
-
- * build/make
-e286828  Add a bunch of clean options handy for  *s.  [Sean Hoyt]
-
- * packages/apps/CoralReef
-17c522a  Volume Panel: Make panel side user selectable [2/2]  [bigrushdog]
-bbc7062  Remove previous customizations to volume panel [2/3]  [calebcabob]
-
-====================
-     05-03-2019    
-====================
-
- * frameworks/base
-4c160b3  Merge "Initial support for OnePlus in-display fingerprint sensor" into a9  [D.J. Calphonic]
-2c2584f  Recents: Fix fab theming when user is using white accent  [calebcabob]
-
- * manifest
-2884a50  Add vendor_interfaces to manifest (needed for caf/dummy repo for a9)  [calebcabob]
-
-====================
-     05-02-2019    
-====================
-
- * packages/apps/Settings
-2735852  Disable Oreo recents if QuickStep is enabled  [bigrushdog]
-
-====================
-     04-29-2019    
-====================
-
- * packages/apps/Settings
-a11fc1a  Expose FP gestures as external activity  [bigrushdog]
+3918f44  Launcher3: Rename our resource files. Use custom rather than a brand  [calebcabob]
+f12f161  AdaptiveIcons: Add an octopus styled icon to the collection  [calebcabob]
+bae9fbb  AdaptiveIcons: Add 5 more available styles to launcher  [calebcabob]
+a16dba9  Let's stop using the term icon_shape  [Skye]
+24e3298  Adaptive icons have a home now.  [Skye]
+0d271a6  Rounded hexagons are cool!  [Skye]
 
  * vendor/aquarios
-fd5a9f3  Gestures: Enable swipe-up navbar gesture on all supported devices  [calebcabob]
-5fa4975  Boot animation: Define all Google device screen res in product makefiles  [calebcabob]
+5303c2f  Update all Google devices to June 2019 fingerprint  [calebcabob]
 
- * vendor/assets
-dd24e35  Merge "New bootanimation handling" into a9  [D.J. Calphonic]
-
-====================
-     04-12-2019    
-====================
-
- * packages/apps/OmniStyle
-2561e66  OmniStyle: Add some new wallpapers :)  [calebcabob]
-
-====================
-     04-11-2019    
-====================
-
- * frameworks/base
-63c785a  FontTile: Update vector to look a little nicer  [calebcabob]
-abeb49a  Ambient music ticker: fix text scrolling on AoD  [ezio84]
-
- * vendor/aquarios
-cce7ec3  Upbreak the shit out of WFC  [calebcabob]
-
-====================
-     04-10-2019    
-====================
-
- * packages/apps/Settings
-ca9f300  fuelguage: Add battery level animation  [Chris]
-
- * vendor/assets
-231ba9e  themes: Update system overlays from fwb  [jhenrique09]
-
-====================
-     04-08-2019    
-====================
-
- * frameworks/base
-205836d  AnalogClocks: Create light versions  [calebcabob]
-529715f  Utils: Add method to determine battery temp  [Alex Cruz]
-2981c08  Utils: Introduce method to determine countries that use Fahrenheit  [Alex]
-2a27728  Weather MCC code cleanup  [Ezio Lacandia Bijelkic]
-74e1b5f  Weather: Determine weather scale based on MCC [1/2]  [Alex]
-0425141  Weather client: switch to vector drawables  [allstargaurav]
-6f3e83c  fwb: Allow users to switch between Pie/Oreo recents [1/3]  [bigrushdog]
-7cbc5f4  Themes: Prevent user from setting accent & background the same colors  [Alex]
-
- * vendor/aquarios
-0151242  Move to Google's method of defining system default props  [Rashed Abdel-Tawab]
-bcd621e  Define Google Assistant as default  [Henrique Silva]
-ab553fa  Allow Google Dialer and Messages to be set as defaults  [beanstown106]
+ * vendor/google
+c7cfa35  Taimen: Update blobs to Android 9.0 (PQ3A.190605.003)  [Josh Chasky]
+88c7923  Bluecross: Update blobs to Android 9.0 (PQ3A.190605.003)  [Josh Chasky]
+f349118  Add device specific files  [spaceman860]
+e183c37  Bluecross: Allow /product APK's to deodex  [Josh Chasky]
 
  * vendor/pixelgapps
-3c85fb6  Update gapps to April 2019 - Pixel 3 XL (crosshatch)  [Josh Chasky]
+72f1288  Update gapps to June 2019 via P3XL  [Josh Chasky]
 
 ====================
-     04-07-2019    
-====================
-
- * frameworks/base
-adc27cc  Fix action bar font family on material themes  [Henrique Silva]
-a982cef  UiModeManagerService: Store messaging night state on Settings class  [Henrique Silva]
-
- * packages/apps/CoralReef
-8da2db1  Recents: Disable clear-all options when user is using pie style recents  [calebcabob]
-47579ad  CoralReef: Allow users to switch between Pie/Oreo recents [2/3]  [Shubham Singh]
-
- * system/sepolicy
-992fab3  Allow webview_zygote to read /dev/ion  [Vladimir Oltean]
-
-====================
-     04-06-2019    
-====================
-
- * manifest
-a91557b  Track packages/apps/EmergencyInfo  [calebcabob]
-eef04a9  Update to android 9.0.0_r35  [calebcabob]
-08c132f  Let's sort things even more  [calebcabob]
-
- * packages/apps/EmergencyInfo
-3568fa7  Fix theming  [jhenrique09]
-
- * vendor/aquarios
-6e1ca28  Crosshatch: We do this in aquarios.mk in crosshatch tree already  [calebcabob]
-7ecc04f  Fingerprints: Update crosshatch, blueline, taimen, and walleye to April 2019  [calebcabob]
-
-====================
-     04-05-2019    
-====================
-
- * build/make
-b4b0fd1  Merge tag 'android-9.0.0_r35' into Aquarios/build_make - a9  [calebcabob]
-
- * frameworks/base
-57dfb3b  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/platform//frameworks/base into HEAD  [calebcabob]
-
- * packages/apps/Bluetooth
-739ecba  Merge tag 'android-9.0.0_r35' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD  [calebcabob]
-
-
-====================
-     04-02-2019    
-====================
-
- * vendor/assets
-d76f529  SystemUi Dark: Let's dark theme match Dialer and Messaging app  [jhenrique09]
-4cc47ac  Use dark theme on global actions/volume panel  [jhenrique09]
-b3497d4  Thematize QS and notifications like Android Q  [jhenrique09]
-ffeeae8  Fix keyboard shortcut item color  [jhenrique09]
-80fa82d  Update toast bg color  [jhenrique09]
-2a661cf  Let's dark theme match Dialer and Messaging app  [jhenrique09]
-cf96978  Fix system dialog theme  [jhenrique09]
-
-====================
-     04-01-2019    
-====================
-
- * packages/apps/Settings
-026f867  Battery temp: Use MCC to determine the scale type  [Alex]
-0749f43  Battery temp: Ensure preference is updated  [Alex]
-cd0ec7d  Battery stats: Display battery temperature  [Alex Cruz]
-
-====================
-     03-31-2019    
-====================
-
- * manifest
-aba55c1  AquariOS caught a blueline!  [calebcabob]
-
- * packages/apps/WeatherClient
-7b8b208  Force stop application if running for more than 60 seconds  [jhenrique09]
-32fcddc  WeatherClient: Update google play services libs  [Sirhc95]
-1d2ef87  Fix conditions  [jhenrique09]
-cf04adf  WeatherChannelApi: Fix allocation abuse  [Harsh Shandilya]
-99f5816  Weather client: fix refresh at boot and improve/cleanup code [2/2]  [ezio84]
-b069672  Add gzip support  [jhenrique09]
-
- * vendor/aquarios
-6d62fab  AquariOS caught a blueline!  [calebcabob]
-
-====================
-     03-30-2019    
-====================
-
- * packages/apps/Settings
-d9d052e  Don't break stock Quickstep, keep current custom impl  [George G]
-1ad23e1  Settings: Allow users to switch between Pie/Oreo recents [3/3]  [Shubham Singh]
-d93be0a  Only show gesture navigation if device has a software nav bar  [Rashed Abdel-Tawab]
-
-====================
-     03-29-2019    
-====================
-
- * frameworks/base
-8e2a92d  Port: Wake on plug (1/2)  [Jon Evans]
-f6aceac  Dreamliner: Disable DockObserver conditionally  [Alex]
-68beb72  Dreamliner: Reorganise the external repo [2/2]  [Giuseppe Maggio]
-844b161  Add Google Sound Search tile  [ezio84]
-7650366  FontTile: Update vector to something sexy  [calebcabob]
-f7f35e1  Introduce FontTile  [bigrushdog]
-4e2a736  SystemUI: Update OnTheGo tile  [Ali B]
-e2a1205  OnTheGoTile: Fix active inactive states  [Pranav Vashi]
-e9221c9  QS: SystemUI: Add On-The-Go Tile  [mydongistiny]
-f23c578  On-The-Go Mode  [Alexander Martinz]
-
- * packages/apps/CoralReef
-516c87a  Port: Wake on plug (1/2)  [Jon Evans]
-
- * packages/apps/Settings
-e8f5968  Dreamliner: Initial import for Settings [2/2]  [Giuseppe Maggio]
-
-====================
-     03-27-2019    
-====================
-
- * frameworks/base
-7db43ee  NetworkTraffic: Allow user to choose positioning [1/2]  [calebcabob]
-
- * packages/apps/CoralReef
-6d50525  Hide arrows in Network Traffic indicators [2/2]  [Nico60]
-1146bf8  NetworkTraffic: Allow user to choose positioning [2/2]  [calebcabob]
-
- * packages/apps/Settings
-d8ad21d  Settings: Show me more than 4 freaking items in the menus!  [Dan Cartier]
-
-====================
-     03-26-2019    
-====================
-
- * frameworks/base
-5a70194  Avoid casting network traffic to StatusBarIconView to prevent crash  [SpiritCroc]
-600f930  Add network traffic monitor properly to statusbar icons  [SpiritCroc]
-62e9387  SystemUI: Move network indicator to the right  [Michele Bono]
-d33554d  Hide arrows in Network Traffic indicators [1/2]  [Nico60]
-
-====================
-     03-25-2019    
-====================
-
- * frameworks/base
-6951497  Bring back traffic indicator for all!  [Alex Cruz]
-9f20c86  Network traffic: fix indicator not hiding on lost connection  [SpiritCroc]
-
-====================
-     03-24-2019    
-====================
-
- * frameworks/base
-6745378  Ambient music ticker: fix text scrolling glitches  [ezio84]
-b916f2f  Improve ambient play layout on keyguard  [Henrique Silva]
-7e5ad6f  Ambient: do not extend pulse notification when not needed  [Giuseppe Maggio]
-b6b8d91  Ambient Music: show on lockscreen only for Now Playing and cleanup code  [ezio84]
-7fff71b  Ambient music Now Playing: more improvements  [Ezio Lacandia Bijelkic]
-16875b0  Themes: Submit qstile and accent changes on offload thread  [bigrushdog]
-
- * packages/apps/SmartNav
-f69566b  SmartNav: Reload icons from storage when boot completes  [bigrushdog]
-
- * packages/apps/SmartNavSettings
-6804d91  Fling: Blacklist SmartBar editor SmartAction  [bigrushdog]
-
-====================
-     03-23-2019    
+     06-02-2019    
 ====================
 
  * vendor/google
-b53dadb  Dreamliner: add prebuilts  [Giuseppe Maggio]
+fd8b2cf  Sprint: Partial fix for Sprint users. Addresses data issues  [Josh Chasky]
 
 ====================
-     03-19-2019    
+     06-01-2019    
 ====================
-
- * manifest
-e2ff32e  Merge branch 'android-9.0.0_r34' of https://android.googlesource.com/platform/manifest into HEAD  [calebcabob]
-
-====================
-     03-17-2019    
-====================
-
- * external/google
-b0cbf6d  ActiveEdge: Use SmartPackageMonitor to clear out stale intent actions  [bigrushdog]
-670897e  Active Edge long squeeze support with SmartAction implementation [1/3]  [Giuseppe Maggio]
-
- * frameworks/base
-e0a2c42  Fonts: Update keyguard when font changes  [bigrushdog]
-dcd3d57  Active Edge long squeeze support with SmartAction implementation [2/3]  [bigrushdog]
-bcfab5e  Move power menu methods to AquaUtils  [Alex]
-f32fd0e  Disallow certain power menu items while in lock task mode  [jhenrique09]
-eabc965  Fix airplane mode in new power menu  [camcory]
-2c4ff55  GlobalActions: Fix airplane mode switch for MSIM  [Roman Birg]
-0794292  SmartActions: Turn on Tri-state ringer toggle [1/2]  [bigrushdog]
-bc5f3ce  SmartActions: Add media controls to bindable actions [1/2]  [bigrushdog]
-95a03c6  AnalogClocks: Update tones to default analog clock  [calebcabob]
-49d8838  AnalogClocks: Properly update drawables on accent change  [bigrushdog]
-4349b8c  AnalogClocks: Remove all dark mode stuff*  [calebcabob]
 
  * packages/apps/CoralReef
-8314774  Active Edge long squeeze support with SmartAction implementation [3/3]  [bigrushdog]
-fdac7d0  Powermenu: Set Advanced Reboot to enabled by default  [calebcabob]
-
- * packages/apps/SmartNav
-32debc4  SmartActions: Make our Tri-state icon a bit cleaner & sexier  [calebcabob]
-739b541  SmartActions: Turn on Tri-state ringer toggle [2/2]  [bigrushdog]
-1bf6b81  SmartActions: Add Play/Pause media to bindable actions [2/2]  [bigrushdog]
+45b439e  KeyguardClocks: Add Q text lockscreen clock style  [Ovenoboyo]
 
 ====================
-     03-16-2019    
+     05-30-2019    
 ====================
 
- * frameworks/base
-dc65801  Merge "Accents: Adjust Fruity Pebbles color layout and naming [1/2]" into a9  [D.J. Calphonic]
+ * packages/apps/SmartNavSettings
+7d0584a  Pulse: Show a summary when user changes Render Mode  [calebcabob]
 
+======================================
+     Previous release - 05-29-2019    
+======================================
+
+4f4d213eb09 BatteryBar: Switch BatteryBar positions when positioned on navbar and left in landscape
+e2b47bb29fa BatteryBar: Unregister all receivers and observers. Fix typo
+92797b3f998 BatteryBar: Fix vertical gradient
+cb56ffd3157 SystemUI: Add Smart Pixels tile
+5fbf838592c Smart Pixels: Bypass check for obscured window
+1ccca4c3cea Smart Pixels: Dynamically register receiver
+96a5d168fa8 Smart Pixels: Switch to registered receiver
+899176696bc Smart Pixels: Move out of SystemUI
+8eded4356c2 SystemUI: Smart Pixels [1/2]
+227dcdcd108 SystemUI: screen-dimmer-pixel-filter
+e15f5c40ff2 SmartActions: TEMP disable camera action
+287040ff2f8 Add in camera action to bindable actions (1/2)
+9434cd3fbbf SmartNav: Eliminate needless BroadcastReceiver in BaseNavigationBar [1/2]
+8847d462603 CarrierConfigManager: Enable enhanced call blocking function
+a8c0314063c core: Implement Aggressive Battery [1/2]
+370ee6115b7 RecentsIconPack: Fallback to default icons on icon pack removal
+661f781d884 IconsHandler: Really update the icon packs available
+d2040c87cc4 Support per-app icon and label customization [2/2]
+97b9c5d16be Custom Icons handler: add launcher icon cache support
+1ca90779572 Stock Recents/Overview icon pack support [2/3]
+5e574e8dfbf VolumeDialog: avoid multiple animations on touch spam
+3298a575d6a Add notification slider if ring & notification is unlinked
+a74bd4b8ad1 Volume Panel: Make panel side user selectable [1/2]
+5238a76c9c2 Volume panel: fixed incorrect positioning of the expandable_indicator and ringer
+497e908d2cf Code improvements for expandable volume panel
+b8bc5f7e84d Redo expanded volume panel for 9.x
+eacbb56c37a Volume panel: Fix animation
+ed71b9c47a0 Volume panel: load the bool once
+c1bf53b76b7 Volume panel: Do the same with less
+831f428355d Allow devices override audio panel location
+8f9536f6a55 Remove previous customizations to volume panel [1/3]
