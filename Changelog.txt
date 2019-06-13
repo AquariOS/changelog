@@ -41,15 +41,6 @@ c3737a7  Update to June-2019 [r41]  [calebcabob]
 ====================
      06-06-2019    
 ====================
-
- * packages/apps/Launcher3
-3918f44  Launcher3: Rename our resource files. Use custom rather than a brand  [calebcabob]
-f12f161  AdaptiveIcons: Add an octopus styled icon to the collection  [calebcabob]
-bae9fbb  AdaptiveIcons: Add 5 more available styles to launcher  [calebcabob]
-a16dba9  Let's stop using the term icon_shape  [Skye]
-24e3298  Adaptive icons have a home now.  [Skye]
-0d271a6  Rounded hexagons are cool!  [Skye]
-
  * vendor/aquarios
 5303c2f  Update all Google devices to June 2019 fingerprint  [calebcabob]
 
