@@ -1,4 +1,59 @@
-AquariOS changelog - June 10, 2019
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
+                              AquariOS changelog - July 14, 2019    
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
+====================
+     07-13-2019    
+====================
+
+ * frameworks/base
+a87c904  KeyguardClocks: Resolve issues with ambient views*  [calebcabob]
+
+ * vendor/aquarios
+6e734c3  Update Pixel 2/2XL fingerprints to July  [calebcabob]
+
+====================
+     07-07-2019    
+====================
+
+ * prebuilts/clang/host/linux-x86
+6e7de97  Update prebuilt Clang to r353983e.  [Stephen Hines]
+
+====================
+     07-03-2019    
+====================
+
+ * build/make
+676ce40  Merge tag 'android-9.0.0_r44' of https://android.googlesource.com/platform/build into upstream  [calebcabob]
+
+ * frameworks/av
+2d337b6  Merge tag 'android-9.0.0_r44' of https://android.googlesource.com/platform/frameworks/av into a9  [calebcabob]
+
+ * frameworks/base
+a50686e  Merge tag 'android-9.0.0_r44' of https://android.googlesource.com/platform/frameworks/base into a9  [calebcabob]
+
+ * frameworks/native
+05c05e1  Merge tag 'android-9.0.0_r44' of https://android.googlesource.com/platform/frameworks/native into a9  [calebcabob]
+
+ * manifest
+3af48b7  Merge branch 'android-9.0.0_r44' of https://android.googlesource.com/platform/manifest into a9  [calebcabob]
+
+ * vendor/aquarios
+85c06cc  Fingerprints: Update Pixel devices to July 2019  [calebcabob]
+
+ * vendor/google
+5ab6659  Bluecross: Update blobs to Android 9.0 (PQ3A.190705.003)  [Josh Chasky]
+
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
+                                Previous release - 06-10-2019    
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
 
 ====================
      06-09-2019    
