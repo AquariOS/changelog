@@ -1,9 +1,80 @@
 
 ≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
 
-                              AquariOS changelog - July 14, 2019    
+                              AquariOS changelog - August, 14 2019    
 
 ≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
+====================
+     08-04-2019    
+====================
+
+ * frameworks/base
+d58aa64  base: Option to use volume keys to control ring volume anytime (1/2)  [Pawit Pornkitprasan]
+2b28c70  Running services icon toggle [1/2]  [Nathan Chancellor]
+aa7134b  Allow to quickly open Running Services from QS panel [1/2]  [ezio84]
+aaa8fae  Unbreak ambient display while Heads up is disabled  [ezio84]
+7bdafac  Prevent NFE in SystemUI when parsing invalid int (2)  [Henrik Baard]
+db32c57  Lockscreen Visualizer: Add pulse magic [1/2]  [Pranav Vashi]
+71f80cc  Pulse: Add bar animation smoothing [1/3]  [Ritayan Chakraborty]
+2aa6cea  Option to use accent color for pulse [2/3]  [Shubham Singh]
+bdf8730  Reload Pixel Home Animation without reboot  [Joe Maples]
+8f4b193  Pixel Navbar animation toggle for AOSP navbar [1/2]  [beanstown106]
+7ad74b1  SystemUI: Add navigation touch animation support  [Chris]
+b7f5664  Revert "SystemUI: Add back the Pixel Navbar"  [calebcabob]
+467e2d5  Revert "PixelNavbar: Fixed to work with pie and lightbar"  [calebcabob]
+48ce09b  Add support to manually pause/resume downloads [1/2]  [qqzhou]
+3a51481  ThemeTile: Make it persistent after a reboot  [Giuseppe Maggio]
+48ce09b  Add support to manually pause/resume downloads [1/2]  [qqzhou]
+3a51481  ThemeTile: Make it persistent after a reboot  [Giuseppe Maggio]
+
+ * manifest
+01c780b  Track 'packages/apps/DownloadProviders'  [calebcabob]
+
+ * packages/apps/Settings
+1ca451b  Allow to quickly open Running Services from QS panel [2/2]  [ezio84]
+a6bebbd  Pixel Navbar animation toggle for AOSP navbar [2/2]  [beanstown106]
+
+ * vendor/support
+2aacead  Add both 'global' & 'secure' versions of the CustomSeekBar  [Pranav Vashi]
+
+====================
+     08-03-2019    
+====================
+
+ * packages/apps/CoralReef
+028d9c5  Lockscreen Visualizer: Add pulse magic [2/2]  [Pranav Vashi]
+a0fc61b  Running services icon toggle [2/2]  [Nathan Chancellor]
+1b04489  Option to use volume keys to control ring volume anytime [2/2]  [Ali B]
+
+31da6fd  Force Expanded Notifications [2/2]  [James Owers]
+bf9258b  Show batter fully charged notification [2/2]  [mydongistiny]
+
+====================
+     08-02-2019    
+====================
+
+
+
+ * packages/apps/SmartNar
+8c6f6a9  Option to use accent color for pulse [1/3]  [Shubham Singh]
+46fff11  SmartNav: Let's use System colors  [ElDainosor]
+8b168f4  Pulse: Fix defaulting to user color if no album color available  [Pranav Vashi]
+680ac51  SmartNav: opa: fix Pixel animation on SB with new SysUI opa  [argraur]
+
+ * packages/apps/SmartNavSettings
+7b4b064  Pulse: Add bar animation smoothing [3/3]  [out386]
+2e494f4   Option to use accent color for pulse [3/3]  [Shubham Singh]
+
+ * system/sepolicy
+a1230f5  sepolicy: allow settings to read selinux status  [maxwen]
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
+                                Previous release - 07-14-2019    
+
+≪ ====================== 🐬 ⚯  🐙 ⚯  🐟 ⚯  🐬  ⚯  🐟 ⚯  🐙 ⚯  🐬 ====================== ≫
+
 
 ====================
      07-13-2019    
